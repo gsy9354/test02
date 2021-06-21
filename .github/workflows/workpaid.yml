@@ -1,4 +1,4 @@
-name: 123
+name: jj
 on: 
  repository_dispatch:
   types: jianji
