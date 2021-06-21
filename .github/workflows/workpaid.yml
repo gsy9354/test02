@@ -1,6 +1,7 @@
 name: Manually triggered workflow
 on:
   repository_dispatch:
+    types: external_test
     inputs:
       name:
         description: 'Person to greet'
