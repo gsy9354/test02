@@ -10,7 +10,7 @@ jobs:
 
     steps:
     - name: Hello World
-      if: contains(github.event.action, 'helloworld')
+      if: contains(github.event.action, 'hello')
       run: |
         echo My name is P3TERX.
         echo Hello World!
